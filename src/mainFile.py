@@ -114,7 +114,7 @@ while(1):
                         
 
                     elif((command.find('collect') != -1 and command.find('face') != -1 and command.find('data') != -1) or (command.find('become my friend') != -1) ):
-                        #os.system("mpg123 audio/afterFirstCommand.mp3")
+                        os.system("mpg123 audio/afterFirstCommand.mp3")
                         faceCollect.collect()
                         continue
                       
